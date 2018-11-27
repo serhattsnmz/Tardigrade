@@ -1,3 +1,5 @@
+![Python](https://img.shields.io/badge/Python-3.6-blue.svg)] [![GitHub license](https://img.shields.io/github/license/serhattsnmz/Tardigrade.svg)](https://github.com/serhattsnmz/Tardigrade/blob/master/LICENSE) [![](https://images.microbadger.com/badges/image/xshuden/tardigrade.svg)](https://microbadger.com/images/xshuden/tardigrade "Get your own image badge on microbadger.com") [![](https://images.microbadger.com/badges/version/xshuden/tardigrade.svg)](https://microbadger.com/images/xshuden/tardigrade "Get your own version badge on microbadger.com")
+
 ## Tardigrade (Subdomian Finder)
 
 - Python script for url crawling and subdomain finding. 
@@ -8,7 +10,6 @@
 - Requests
 - Prettytable
 
-
 ## How to install and run
 
 1. Download the source from Github
@@ -18,6 +19,14 @@
 	- `pip install -r requirements.txt`
 3. Run python file with Python 3
 	- `python3 tardigrade.py`
+
+## Docker Run Command
+
+```
+docker run --rm -it -e "DOMAIN=<**SITE URL**>" -e "VERBOSE=<**True/False**>" -e "SAVEFILE=<**True/False**>" xshuden/tardigrade # container is deleted when you're done
+OR
+docker run -it -e "DOMAIN=<**SITE URL**>" -e "VERBOSE=<**True/False**>" -e "SAVEFILE=<**True/False**>" xshuden/tardigrade
+```
 
 ## Usage
 
