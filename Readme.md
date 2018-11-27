@@ -1,4 +1,4 @@
-![Python](https://img.shields.io/badge/Python-3.6-blue.svg)] [![GitHub license](https://img.shields.io/github/license/serhattsnmz/Tardigrade.svg)](https://github.com/serhattsnmz/Tardigrade/blob/master/LICENSE) [![](https://images.microbadger.com/badges/image/xshuden/tardigrade.svg)](https://microbadger.com/images/xshuden/tardigrade "Get your own image badge on microbadger.com") [![](https://images.microbadger.com/badges/version/xshuden/tardigrade.svg)](https://microbadger.com/images/xshuden/tardigrade "Get your own version badge on microbadger.com")
+![Python](https://img.shields.io/badge/Python-3.6-blue.svg) [![GitHub license](https://img.shields.io/github/license/serhattsnmz/Tardigrade.svg)](https://github.com/serhattsnmz/Tardigrade/blob/master/LICENSE) [![](https://images.microbadger.com/badges/image/xshuden/tardigrade.svg)](https://microbadger.com/images/xshuden/tardigrade "Get your own image badge on microbadger.com") [![](https://images.microbadger.com/badges/version/xshuden/tardigrade.svg)](https://microbadger.com/images/xshuden/tardigrade "Get your own version badge on microbadger.com")
 
 ## Tardigrade (Subdomian Finder)
 
