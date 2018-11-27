@@ -26,8 +26,10 @@
 docker run --rm -it -e "DOMAIN=<**SITE URL**>" -e "VERBOSE=<**True/False**>" -e "SAVEFILE=<**True/False**>" xshuden/tardigrade # container is deleted when you're done
 OR
 docker run -it -e "DOMAIN=<**SITE URL**>" -e "VERBOSE=<**True/False**>" -e "SAVEFILE=<**True/False**>" xshuden/tardigrade
+```
 
-EXAMPLE
+## Docker Example Command
+```
 docker run --rm -it -e "DOMAIN=google.com" -e "VERBOSE=True" -e "SAVEFILE=True" xshuden/tardigrade
 docker run -it -e "DOMAIN=google.com" -e "VERBOSE=True" -e "SAVEFILE=True" xshuden/tardigrade
 ```
