@@ -5,7 +5,7 @@ ARG DOMAIN=""
 ARG VERBOSE=""
 ARG SAVEFILE=""
 
-ENV DOMAIN={DOMAIN}
+ENV DOMAIN=${DOMAIN}
 ENV VERBOSE=${VERBOSE}
 ENV SAVEFILE=${SAVEFILE}
 
@@ -21,7 +21,6 @@ RUN apk update && \
 RUN mkdir /tardigrade
 ADD requirements.txt /tardigrade
 ADD tardigrade.py /tardigrade
-ADD subdomain.txt /tardigrade
 
 WORKDIR /tardigrade
 
